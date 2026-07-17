@@ -6,12 +6,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DotNetAssignments.asyncawait;
 
 namespace DotNetAssignments
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static  async Task Main(string[] args)
         {
             //array
             jagged.Run();
@@ -24,6 +25,10 @@ namespace DotNetAssignments
             delegatedemo.RunDemo();
             eventdemo.RunDemo();
 
+            //async await
+            Console.WriteLine();
+            Console.WriteLine("async await demo");
+            await AsyncAwait.RunDemo();
         }
     }
 }

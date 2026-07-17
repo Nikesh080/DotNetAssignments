@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="array3d.cs" />
+    <Compile Include="asyncawait\AsyncAwait.cs" />
     <Compile Include="DelegateandEvents\delegate.cs" />
     <Compile Include="DelegateandEvents\events.cs" />
     <Compile Include="indexers\indexers.cs" />
