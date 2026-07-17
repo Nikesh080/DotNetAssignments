@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="array3d.cs" />
+    <Compile Include="indexers\indexers.cs" />
     <Compile Include="jaggedarray.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
