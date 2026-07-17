@@ -1,5 +1,6 @@
 ﻿using dotNetAssignments;
 using DotNetAssignments.indexer;
+using DotNetAssignments.DelegateandEvents;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,6 +19,10 @@ namespace DotNetAssignments
 
             //indexer
             indexers.RunDemo();
+
+            //delegate and event
+            delegatedemo.RunDemo();
+            eventdemo.RunDemo();
 
         }
     }
